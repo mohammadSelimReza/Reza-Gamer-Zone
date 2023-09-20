@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  margin-bottom: 200px;
+}
+/* common */
+.text-center {
+  text-align: center;
+}
+.flex-mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* color */
+
+.pink-first {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pink-second {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-first {
+  border-radius: 30px;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+}
+.btn-second {
+  border-radius: 30px;
+  background: #4ec5f7;
+}
+/* media-query */
+@media only screen and (max-width: 600px) {
+  /* header */
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  h6 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+  .card-text {
+    font-size: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* body */
+  .header {
+    margin-top: 50px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  .menu {
+    margin-top: 32px;
+  }
+  .menu h6:nth-child(2) {
+    margin: 25px 0px;
+  }
+  /* banner */
+  .img-container {
+    padding: 50px;
+  }
+  .img-container img {
+    width: 100%;
+    height: auto;
+  }
+  .features {
+    display: flex;
+    justify-content: center;
+  }
+  .mb-14 {
+    margin-bottom: 14px;
+  }
+  .mb-5 {
+    margin-bottom: 5px;
+  }
+  button {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 15px 22px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .flex-mid p {
+    margin: 20px;
+  }
+  .mt-60 {
+    margin-top: 30px;
+  }
+  /* card */
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 20px 0;
+  }
+  .card-img {
+    width: 250px;
+  }
+  .card-img img {
+    width: 100%;
+    height: auto;
+  }
+  /* post */
+  .first-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+  }
+  .second-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+  }
+  .post-img {
+    width: 250px;
+    position: relative;
+    margin: 50px 0;
+  }
+  .post-img img {
+    width: 100%;
+    height: auto;
+  }
+  .post-1 {
+    position: relative;
+    left: 40px;
+  }
+  .post-2 {
+    position: absolute;
+    width: 170px;
+    left: -35px;
+    bottom: -70px;
+  }
+  .post-3 {
+    position: relative;
+    right: 25px;
+  }
+  .post-4 {
+    position: absolute;
+    width: 170px;
+    right: -60px;
+    bottom: -120px;
+  }
+  /* career */
+  .career {
+    background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+    color: white;
+    margin: 100px 0px;
+    padding: 105px 50px;
+  }
+  .career-container {
+    font-size: 0.8rem;
+    margin: 20px 0;
+  }
+  .text-end {
+    text-align: end;
+  }
+  .career-img {
+    width: 100%;
+    height: auto;
+  }
+  /* catagory */
+  .catagory-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    row-gap: 10px;
+    column-gap: 5px;
+    padding: 0 30px;
+  }
+  .catagory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .catagory p {
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+  .catagory img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  /* footer */
+  .footer {
+    background: #0b0223;
+    color: white;
+    margin-top: 50px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-menu {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 5px;
+  }
+  .footer-menu p {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+  .menu-link {
+    color: white;
+  }
+  .policy {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 5px;
+  }
+  .policy p {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+  .footer-container h6 {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* ...; */
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* ...; */
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* ...; */
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* ...; */
+}
