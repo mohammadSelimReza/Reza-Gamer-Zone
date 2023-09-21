@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./pretty.css" />
+    <script
+      src="https://kit.fontawesome.com/17d9dd91f5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Gamer Zone</title>
   </head>
   <body>
     <header class="header">
-      <nav>
+      <nav class="screen">
         <h3 class="text-center">
           <img src="./images/Frame.png" alt="" />
           <span class="pink-second">G</span>amer
@@ -16,21 +21,36 @@
         <div class="menu">
           <h6 class="text-center"><a href="#">About US</a></h6>
           <h6 class="text-center"><a href="#">Developers</a></h6>
-          <h6 class="text-center">Follow US</h6>
+          <h6 class="text-center">
+            Follow US
+            <a href="#"
+              ><i class="fa-brands fa-youtube" style="color: #d51a24"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          </h6>
         </div>
       </nav>
-      <section class="banner">
+      <section class="banner screen">
         <div class="first-banner">
-          <div class="img-container">
-            <img src="./images/Group-18.png" alt="" />
+          <div class="img-part">
+            <div class="img-container">
+              <img src="./images/Group-18.png" alt="" />
+            </div>
           </div>
           <div class="features">
             <div>
               <h2>PLAY LIKE THE</h2>
               <h1 class="pink-first mb-14">G.O.A.T.</h1>
-              <h6 class="mb-5">1-click instant play</h6>
-              <h6 class="mb-5">No Download</h6>
-              <h6 class="mb-14">1000s of supported Online Games</h6>
+              <h6 class="mb-5">
+                <i class="fa-regular fa-circle-play"></i>-1-click instant play
+              </h6>
+              <h6 class="mb-5">
+                <i class="fa-solid fa-arrow-down"></i>-No Download
+              </h6>
+              <h6 class="mb-14">
+                <i class="fa-regular fa-user"></i>-1000s of supported Online
+                Games
+              </h6>
               <div class="btn">
                 <button class="btn-first">Sign IN</button>
                 <button class="btn-second">GO ROUGE</button>
@@ -39,12 +59,14 @@
           </div>
         </div>
         <div class="second-banner">
-          <div class="img-container">
-            <img src="./images/pngwing-4.png" alt="" />
+          <div class="img-part">
+            <div class="img-container">
+              <img src="./images/pngwing-4.png" alt="" />
+            </div>
           </div>
           <div class="features">
             <div class="flex-mid">
-              <h2 class="text-center">We are gamer</h2>
+              <h2 class="text-center pink-first">We are gamer</h2>
               <p class="text-center">
                 An international digital games and entertainment <br />
                 company. We develop, publish and distribute multiplayer <br />
@@ -63,8 +85,10 @@
       </section>
     </header>
     <main>
-      <section class="games">
-        <h2 class="text-center">Online Games <span>Funny Videos</span></h2>
+      <section class="games screen">
+        <h2 class="text-center">
+          Online Games <span class="pink-first">Funny Videos</span>
+        </h2>
         <p class="text-center">
           A Collection of Hilarious Videos to Brighten Your Day
         </p>
@@ -99,22 +123,26 @@
           </div>
         </div>
       </section>
-      <section class="post">
+      <section class="post screen">
         <article class="first-post">
-          <h2 class="text-center">
-            <span>Play Instantly,</span>
-            <br />
-            No Downloads,
-            <br />
-            No Installs.
-          </h2>
-          <p class="text-center">
-            Play games online for free without downloading. Just
-            <br />
-            click the Play button and play instantly in your
-            <br />
-            browser.
-          </p>
+          <div class="article-part">
+            <div>
+              <h2 class="text-center">
+                <span class="pink-second">Play Instantly,</span>
+                <br />
+                No Downloads,
+                <br />
+                No Installs.
+              </h2>
+              <p class="text-center">
+                Play games online for free without downloading. Just
+                <br />
+                click the Play button and play instantly in your
+                <br />
+                browser.
+              </p>
+            </div>
+          </div>
           <div class="post-img">
             <img class="post-1" src="./images/Rectangle-55.png" alt="" />
             <div class="post-2">
@@ -123,22 +151,26 @@
           </div>
         </article>
         <article class="second-post">
-          <h2 class="text-center">
-            <span>
-              Play Games
-              <br />
-              Online
-            </span>
-            Anytime, <br />
-            AnyWhere
-          </h2>
-          <p class="text-center">
-            PC. dad’s phone, mom’s tablet, or your Chromebook,
-            <br />
-            with Gamer you can play your favorite games online
-            <br />
-            for free, any time, anywhere , on any device.
-          </p>
+          <div class="article-part">
+            <div>
+              <h2 class="text-center">
+                <span class="pink-second">
+                  Play Games
+                  <br />
+                  Online
+                </span>
+                Anytime, <br />
+                AnyWhere
+              </h2>
+              <p class="text-center">
+                PC. dad’s phone, mom’s tablet, or your Chromebook,
+                <br />
+                with Gamer you can play your favorite games online
+                <br />
+                for free, any time, anywhere , on any device.
+              </p>
+            </div>
+          </div>
           <div class="post-img">
             <img class="post-3" src="./images/Rectangle-67.png" alt="" />
             <div class="post-4">
@@ -148,50 +180,56 @@
         </article>
       </section>
       <section class="career">
-        <div class="half-part">
-          <h2>Careers</h2>
-          <p>
-            Gamer is driven to create the best and most fun games for our
-            millions of players all around the world, and we,re always on the
-            lookout for more top talent to join our growing team. If you,d like
-            to help us make great games and be a part of Gamers bright future,
-            we,d love to hear from you.
-          </p>
-          <div class="career-container">
-            <table style="width: 100%" class="table">
-              <tr>
-                <td>Multimedia Artist +</td>
-                <td class="text-end">Lisbon, Portugal</td>
-              </tr>
-              <tr>
-                <td>Data Engineer +</td>
-                <td class="text-end">Lisbon, Portugal</td>
-              </tr>
-              <tr>
-                <td>Adroid Engineer +</td>
-                <td class="text-end">Zoetermeer, Netherlands</td>
-              </tr>
-              <tr>
-                <td>Server Developer +</td>
-                <td class="text-end">Lisbon, Portugal</td>
-              </tr>
-              <tr>
-                <td>Group Financial Accountant +</td>
-                <td class="text-end">London, United Kingdom</td>
-              </tr>
-              <tr>
-                <td>Senior User Acuisition Specialist +</td>
-                <td class="text-end">Lisbon, Portugal</td>
-              </tr>
-            </table>
-            <button>SEE ALL POSITIONS</button>
+        <div class="screen">
+          <div class="career-display">
+            <div class="half-part article-part">
+              <div>
+                <h2>Careers</h2>
+                <p>
+                  Gamer is driven to create the best and most fun games for our
+                  millions of players all around the world, and we,re always on
+                  the lookout for more top talent to join our growing team. If
+                  you,d like to help us make great games and be a part of Gamers
+                  bright future, we,d love to hear from you.
+                </p>
+                <div class="career-container">
+                  <table style="width: 100%" class="table">
+                    <tr>
+                      <td>Multimedia Artist +</td>
+                      <td class="text-end">Lisbon, Portugal</td>
+                    </tr>
+                    <tr>
+                      <td>Data Engineer +</td>
+                      <td class="text-end">Lisbon, Portugal</td>
+                    </tr>
+                    <tr>
+                      <td>Adroid Engineer +</td>
+                      <td class="text-end">Zoetermeer, Netherlands</td>
+                    </tr>
+                    <tr>
+                      <td>Server Developer +</td>
+                      <td class="text-end">Lisbon, Portugal</td>
+                    </tr>
+                    <tr>
+                      <td>Group Financial Accountant +</td>
+                      <td class="text-end">London, United Kingdom</td>
+                    </tr>
+                    <tr>
+                      <td>Senior User Acuisition Specialist +</td>
+                      <td class="text-end">Lisbon, Portugal</td>
+                    </tr>
+                  </table>
+                  <button class="career-btn">SEE ALL POSITIONS</button>
+                </div>
+              </div>
+            </div>
+            <div class="career-img-container half-part">
+              <img class="career-img" src="./images/Group-65.png" alt="" />
+            </div>
           </div>
         </div>
-        <div class="career-img-container">
-          <img class="career-img" src="./images/Group-65.png" alt="" />
-        </div>
       </section>
-      <section class="catagory-container">
+      <section class="catagory-container screen">
         <div class="catagory">
           <img src="./images/Rectangle-11.png" alt="" />
           <p>Action Games</p>
@@ -232,7 +270,7 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="footer-container">
+      <div class="footer-container screen">
         <h3 class="text-center">
           <img src="./images/Frame.png" alt="" />
           <span class="pink-second">G</span>amer
@@ -245,6 +283,24 @@
           <p class="text-center"><a href="#" class="menu-link">Support</a></p>
           <p class="text-end"><a href="#" class="menu-link">My Account</a></p>
         </div>
+        <div class="social">
+          <h5>
+            <a href="#"
+              ><i class="fa-brands fa-twitter" style="color: #f7f9fd"></i
+            ></a>
+          </h5>
+          <h5>
+            <a href="#"
+              ><i class="fa-brands fa-facebook-f" style="color: #e6e9ef"></i
+            ></a>
+          </h5>
+          <h5>
+           <i class="fa-brands fa-youtube" style="color: #f0f2f4;"></i></a>
+          </h5>
+          <h5><a href="#"><i class="fa-brands fa-linkedin-in" style="color: #f5f7f9;"></i></a></h5>
+          <h5><a href="#"><i class="fa-brands fa-instagram" style="color: #f5f7fa;"></i></a></h5>
+          <h5><a href="#"><i class="fa-brands fa-apple" style="color: #f9fafb;"></i></a></h5>
+        </div>
         <div class="policy">
           <p><a href="#" class="menu-link">Term and Conditions</a></p>
           <p class="text-end">
@@ -255,6 +311,7 @@
             <a href="#" class="menu-link">Privacy Settings</a>
           </p>
         </div>
+        
         <h6 class="text-center">
           Play Games @ Gamer
           <br />
