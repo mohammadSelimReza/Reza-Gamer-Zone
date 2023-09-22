@@ -367,6 +367,10 @@ body {
     font-size: 0.35rem;
     font-weight: 400;
   }
+  a {
+    text-decoration: none;
+    color: black;
+  }
   .btn-first,
   .btn-second {
     padding: 5px 8px;
@@ -410,6 +414,9 @@ body {
   }
   .hover-thing {
     display: none;
+  }
+  .card-img {
+    position: relative;
   }
 
   .card-img img:hover + .hover-thing {
